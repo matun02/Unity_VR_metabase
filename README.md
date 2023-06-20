@@ -3,7 +3,7 @@ Unityによるメタバース発表会場を作ることを目的として作成
 大学の研究として使用しています。
 
 ## 参考サイト
-AskaUnity初心者がawsサーバーとWebSocketを使ってのリアルタイム同期通信について学ぶ[[https://www.aska-ltd.jp/jp/blog/105]](2023/6/20)
+Aska,「Unity初心者がawsサーバーとWebSocketを使ってのリアルタイム同期通信について学ぶ」[[https://www.aska-ltd.jp/jp/blog/105]]（2023/6/20）
 
 ### 使用環境
 

@@ -18,10 +18,13 @@ sudo yum update
 // 必要な開発ツールのインストール
 sudo yum -y install gcc-c++
 sudo yum -y install git
+
 // nvmのダウンロード
 git clone https://github.com/creationix/nvm.git ~/.nvm
+
 // nvm実行コマンドのパス設定
 source ~/.nvm/nvm.sh
+
 // 再ログイン時に設定したパスが有効になるように、プロフィールファイルに下記を追加
 vi /home/[ログインユーザー名]/.bash_profile\
 

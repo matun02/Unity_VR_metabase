@@ -12,11 +12,12 @@ node.js v14.15.1
 ---
 
 ### 最低限のawsでの手順
-
+```
 sudo yum update
-// 必要な開発ツールのインストール
-sudo yum -y install gcc-c++
-sudo yum -y install git
+
+// 必要な開発ツールのインストール\n
+sudo yum -y install gcc-c++\n
+sudo yum -y install git\n
 // nvmのダウンロード
 git clone https://github.com/creationix/nvm.git ~/.nvm
 ```

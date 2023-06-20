@@ -51,7 +51,7 @@ node -v
 npm install websocket
 //
 ```
-###コピペ用
+### コピペ用
 ```
 sudo yum update
 sudo yum -y install gcc-c++

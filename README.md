@@ -51,4 +51,30 @@ node -v
 npm install websocket
 //
 ```
-この研究は
+###コピペ用
+```
+sudo yum update
+sudo yum -y install gcc-c++
+sudo yum -y install git
+git clone https://github.com/creationix/nvm.git ~/.nvm
+source ~/.nvm/nvm.sh
+nvm install 14.15.1
+nvm use v14.15.1
+node -v
+npm install websocket
+```
+
+#### 再ログイン時に設定したパスが有効になるように、プロフィールファイルに下記を追加
+
+```
+vi /home/[ログインユーザー名]/.bash_profile\
+```
+
+内容(編集モードに入る「i」→下のコードを１番したにコピペ→コマンドモードに入る「ESC」→:wqを入力)
+
+```
+# nvm
+if [[ -s ~/.nvm/nvm.sh ]] ; then
+        source ~/.nvm/nvm.sh ;
+fi
+```
